@@ -1,3 +1,5 @@
+#Part 1 boils down to finding the most common bit value at each index and multiplying by it's complement
+
 with open('inputs/day_3.txt', 'r') as input:
     input_lines = [line.strip() for line in input.readlines()]
 
